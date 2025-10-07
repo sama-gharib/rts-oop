@@ -12,6 +12,6 @@ This project uses Maven. Please refer to its documentation for further details c
 
 ## Roadmap
  - [x] Write a `README.md`
- - [ ] Initialize the Maven project.
+ - [x] Initialize the Maven project.
  - [ ] Write roadmap.
  - [ ] Program this kick-ass game !!
