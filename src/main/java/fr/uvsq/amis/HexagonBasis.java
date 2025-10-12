@@ -31,14 +31,7 @@ class HexagonBasis {
 	}
 	
 	public Vector2D getIndices(Vector2D coordinates) {
-		return this.worldToIndices.transform(
-			coordinates.add(
-				new Vector2D(
-					0.f,
-					this.sideCenterDistance
-				)
-			)
-		);
+		return this.worldToIndices.transform(coordinates).add(Vector2D.ONE.scale(0.5f));
 	}
 
 	public float getRadius() {
