@@ -3,7 +3,7 @@ package fr.uvsq.amis;
 import javax.swing.JFrame;
 
 /**
- * Hello world!
+ * Application entry-point.
  */
 public class App {
     public static void main(String[] args) {
